@@ -1,5 +1,4 @@
-[README.md](https://github.com/user-attachments/files/32862424/README.md)
-
+[README.md](https://github.com/user-attachments/files/32867131/README.md)
 <div align="center">
 
 # ▚ BLACKICE // HACKER SIMULATOR
@@ -8,8 +7,8 @@
 Ein eDEX-UI-inspiriertes Hacking-Spiel als einzelne Windows-EXE. Ohne Setup, ohne Abhängigkeiten, offline spielbar.
 
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4?logo=windows11&logoColor=white)
-![Version](https://img.shields.io/badge/version-1.1.0-19ff6a)
-![Size](https://img.shields.io/badge/einzelne%20EXE-77%20MB-ffb300)
+![Version](https://img.shields.io/badge/version-1.2.0-19ff6a)
+![Size](https://img.shields.io/badge/einzelne%20EXE-92%20MB-ffb300)
 ![Runtime](https://img.shields.io/badge/runtime-WebView2-00ffd5)
 ![License](https://img.shields.io/badge/license-MIT-ff2d55)
 
@@ -24,7 +23,7 @@ Ein eDEX-UI-inspiriertes Hacking-Spiel als einzelne Windows-EXE. Ohne Setup, ohn
 
 ## 📥 Download & Start
 
-1. Gehe zu **[Releases](../../releases)** und lade `BLACKICE.exe` (77 MB) aus dem aktuellen Release
+1. Gehe zu **[Releases](../../releases)** und lade `BLACKICE.exe` (92 MB) aus dem aktuellen Release
 2. Doppelklicken. Fertig.
 3. Tippe irgendwas. Drücke Enter. Willkommen im Netz.
 
@@ -57,6 +56,7 @@ Ein paar Wörter lösen Spezial-Missionen aus:
 - **📈 Progression** — XP, 8 Ränge (Script Kiddie → *„Legende — Verboten"*), ¢-Loot, 9 Achievements, Missionsliste
 - **🖥️ eDEX-UI-Vibes** — Live-Node-Feed, Traffic-Graph, System-Last, Threat-Meter, News-Ticker, Boot-Sequenz, Scanlines, Glitch-Effekte, WebAudio-Sounds (null Audiodateien)
 - **🎬 Hintergrundvideo** — eigenes „Hackersimulator"-Video hinter dem Terminal, mit Matrix-Rain als Fallback
+- **🎵 Echter Soundtrack** — 5 Tracks (Ambient/Drone/Cyber) als Playlist mit Auto-Next, **Terminal-Ambience-Loop synchron zum Hintergrundvideo**, Boot-Stinger, Trace-Alarm und Error-FX; Mute bleibt gespeichert
 
 ## 💾 Auto-Save
 
@@ -94,8 +94,9 @@ Der Quellcode liegt komplett in [`app-src/`](app-src/) — kein Framework, kein 
 ├── app-src/
 │   ├── index.html        # Layout: Terminal, HUD, Overlays
 │   ├── style.css         # Cyberpunk-Look (Scanlines, Glitch, CRT)
-│   ├── game.js           # Spiel-Logik (Hacks, Bosse, Trace, XP, Save)
+│   ├── game.js           # Spiel-Logik (Hacks, Bosse, Trace, XP, Save, Audio)
 │   ├── js/neutralino.js  # Neutralino-Client-Library
+│   ├── sounds/           # Soundtrack (5 Tracks), Boot-Stinger, Error-FX, Terminal-Loop
 │   └── Hackersimulator background.mp4
 └── RELEASE_NOTES.md      # Release-Text
 ```
